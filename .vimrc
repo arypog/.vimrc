@@ -38,6 +38,10 @@ nnoremap <C-j> :cprev<CR>zz
 " Search and replace current word (Goat)
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
+" Enable syntax highlighting
+syntax enable
+set termguicolors
+
 " Enable line numbers
 set number
 set relativenumber
